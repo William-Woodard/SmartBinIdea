@@ -1,3 +1,5 @@
+//This code would run in background on google sheets server and format info from smart bins and input it into google sheets
+//We never actually got this code to work in the time we had
 function doGet(e) { 
   Logger.log( JSON.stringify(e) );  // view parameters
   var result = 'Ok'; // assume success
